@@ -1,3 +1,12 @@
+v4.1.0
+======
+
+Features
+--------
+
+- Path.iterdir now raises NotADirectoryError (formerly ValueError) when call on something that's not a directory. (#154)
+
+
 v4.0.0
 ======
 
