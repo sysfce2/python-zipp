@@ -1,0 +1,1 @@
+Path.iterdir now raises NotADirectoryError (formerly ValueError) when call on something that's not a directory.
